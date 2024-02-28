@@ -8,7 +8,7 @@ def main():
     print(f"--- Begin report of book/frankenstein.txt ---")
     print(f"{num_words} words found in document\n")   
     for item in report:
-            print(f"The {item["name"]} character was found {item["num"]} times") 
+        print(f"The {item['name']} character was found {item['num']} times") 
     print("\n--- End of report ---")
     
 def get_book(path):
